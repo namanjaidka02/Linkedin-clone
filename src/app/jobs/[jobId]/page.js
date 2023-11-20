@@ -45,7 +45,7 @@ const JobIdPage = ({ params }) => {
         })}
       </section>
 
-      <section className=" bg-white lg:px-8 h-[100%] text-left overflow-y-auto xs:px-3 py-10">
+      <section className=" bg-white lg:px-8 h-[100%] text-left overflow-y-auto xs:px-3 xs:pt-2 xs:pb-24">
         {data.map((d) => {
           if (d.id == params.jobId) {
             return (
