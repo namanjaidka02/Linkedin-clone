@@ -19,7 +19,7 @@ const Jobs = () => {
 
   return (
     <main className="  bg-beige h-[100vh] overflow-auto">
-      <section className="flex flex-col justify-center items-center  bg-white  lg:py-5 rounded-md lg:pl-0 lg:mx-[25rem] xs:px-4 xs:pt-2 xs:pb-16  lg:pb-0 lg:px-0">
+      <section className="flex flex-col justify-center items-center  bg-white  lg:py-5 rounded-md lg:pl-0 lg:mx-[25rem] xs:px-4 xs:pt-2 xs:pb-16  lg:pb-2 lg:px-0">
         <div className="lg:text-left xs:mb-[2rem] lg:mr-[2rem] xs:pl-2">
           <h1 className="xs:text-2xl lg:text-3xl font-semi-bold">Recomended Jobs for you.</h1>
           <p className="xs:text-[11px] xs:text-center lg:text-sm">
