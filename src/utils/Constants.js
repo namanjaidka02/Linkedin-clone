@@ -13,6 +13,7 @@ export const data = [
     employees: "10-20 employees",
     skills: "HTML, web-development, CSS, JS",
     industry: "Information Technology",
+    saved: false,
     companyDesc:
       "At SPARKLIN, we come together to advance human experience—a pursuit to make each human experience a better life. We take on complicated, world-scale challenges—venturing into the unseen, the not-done-before, continuously. We look beyond the rhetoric, the template answers. We review the challenges through the lens of First Principles. We apply creative thinking, art & science to make new connections, develop fresh strategies and in some cases, create new businesses.We love challenges. We love our work—it’s evolutionary, each step adding to a better tomorrow. We are crazy—curious, unconventional, analytical, artistic. We are a hungry bunch of Polymaths—striving to know more about more things.",
     jobDesc:
@@ -43,6 +44,7 @@ export const data = [
     employees: "10-20 employees",
     skills: "HTML, web-development, CSS, JS",
     industry: "Information Technology",
+    saved: false,
     companyDesc:
       "At SPARKLIN, we come together to advance human experience—a pursuit to make each human experience a better life. We take on complicated, world-scale challenges—venturing into the unseen, the not-done-before, continuously. We look beyond the rhetoric, the template answers. We review the challenges through the lens of First Principles. We apply creative thinking, art & science to make new connections, develop fresh strategies and in some cases, create new businesses.We love challenges. We love our work—it’s evolutionary, each step adding to a better tomorrow. We are crazy—curious, unconventional, analytical, artistic. We are a hungry bunch of Polymaths—striving to know more about more things.",
     jobDesc:
@@ -72,6 +74,7 @@ export const data = [
     employees: "10-20 employees",
     skills: "HTML, web-development, CSS, JS",
     industry: "Information Technology",
+    saved: false,
     companyDesc:
       "At SPARKLIN, we come together to advance human experience—a pursuit to make each human experience a better life. We take on complicated, world-scale challenges—venturing into the unseen, the not-done-before, continuously. We look beyond the rhetoric, the template answers. We review the challenges through the lens of First Principles. We apply creative thinking, art & science to make new connections, develop fresh strategies and in some cases, create new businesses.We love challenges. We love our work—it’s evolutionary, each step adding to a better tomorrow. We are crazy—curious, unconventional, analytical, artistic. We are a hungry bunch of Polymaths—striving to know more about more things.",
     jobDesc:
@@ -101,6 +104,7 @@ export const data = [
     employees: "10-20 employees",
     skills: "HTML, web-development, CSS, JS",
     industry: "Information Technology",
+    saved: false,
     companyDesc:
       "At SPARKLIN, we come together to advance human experience—a pursuit to make each human experience a better life. We take on complicated, world-scale challenges—venturing into the unseen, the not-done-before, continuously. We look beyond the rhetoric, the template answers. We review the challenges through the lens of First Principles. We apply creative thinking, art & science to make new connections, develop fresh strategies and in some cases, create new businesses.We love challenges. We love our work—it’s evolutionary, each step adding to a better tomorrow. We are crazy—curious, unconventional, analytical, artistic. We are a hungry bunch of Polymaths—striving to know more about more things.",
     jobDesc:
@@ -130,6 +134,7 @@ export const data = [
     employees: "10-20 employees",
     skills: "HTML, web-development, CSS, JS",
     industry: "Information Technology",
+    saved: false,
     companyDesc:
       "At SPARKLIN, we come together to advance human experience—a pursuit to make each human experience a better life. We take on complicated, world-scale challenges—venturing into the unseen, the not-done-before, continuously. We look beyond the rhetoric, the template answers. We review the challenges through the lens of First Principles. We apply creative thinking, art & science to make new connections, develop fresh strategies and in some cases, create new businesses.We love challenges. We love our work—it’s evolutionary, each step adding to a better tomorrow. We are crazy—curious, unconventional, analytical, artistic. We are a hungry bunch of Polymaths—striving to know more about more things.",
     jobDesc:

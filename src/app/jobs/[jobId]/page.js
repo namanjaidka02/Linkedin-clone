@@ -1,9 +1,14 @@
+"use client";
+
+import React, { useState } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { data } from "@/utils/Constants";
 
 const JobIdPage = ({ params }) => {
+  const [jobData, setJobData] = useState(data);
+
   return (
     <main className="lg:grid lg:grid-cols-2 lg:px-[10rem] bg-beige h-[100vh] ">
       <section className="flex flex-col  items-center lg:text-left xs:hidden lg:block overflow-y-auto bg-white border-r-[1px] xs:px-3 xs:py-4">
@@ -14,12 +19,12 @@ const JobIdPage = ({ params }) => {
           <p className="xs:text-[11px] lg:text-sm">Based on your profile and search history.</p>
         </div>
 
-        {data.map((data) => {
+        {jobData.map((data) => {
           const { id, jobName, companyName, location, jobType, salaryRange, datePosted } = data;
           return (
-            <>
+            <div key={id}>
               <Link href={`/jobs/${id}`}>
-                <div className=" lg:my-5 flex cursor-pointer onhover" key={id}>
+                <div className=" lg:my-5 flex cursor-pointer onhover">
                   <div className="">
                     <Image
                       src="https://media.licdn.com/dms/image/D560BAQE28k-oE7Hb3Q/company-logo_100_100/0/1687902244945/medvise_ai_logo?e=1707350400&v=beta&t=XdGP0BScW2ogy6rn7sPHHns4NBrqYWwjUCreBb_c92Q"
@@ -40,13 +45,13 @@ const JobIdPage = ({ params }) => {
                   </div>
                 </div>
               </Link>
-            </>
+            </div>
           );
         })}
       </section>
 
       <section className=" bg-white lg:px-8 h-[100%] text-left overflow-y-auto xs:px-3 xs:pt-2 xs:pb-24 lg:pb-14">
-        {data.map((d) => {
+        {jobData.map((d) => {
           if (d.id == params.jobId) {
             return (
               <div key={d.id}>
@@ -83,6 +88,18 @@ const JobIdPage = ({ params }) => {
                   <div className="bg-blue-500 hover:bg-blue-800  rounded-lg px-3 py-2">
                     <button className=" text-white text-xl px-2">Apply</button>
                     <i className="fa-solid fa-arrow-up-right-from-square text-white text-sm "></i>
+                  </div>
+                  <div>
+                    <button
+                      onClick={() => {
+                        const updatedJobs = (data.saved = true);
+                        setJobData([...data, updatedJobs]);
+                        console.log(jobData);
+                      }}
+                      className=" rounded-2xl text-lg hover:text-white ml-5 px-5 py-2 btn-border text-blue-700"
+                    >
+                      Save
+                    </button>
                   </div>
                 </section>
 

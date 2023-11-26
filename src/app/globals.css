@@ -11,3 +11,13 @@ body{
   margin: 0;
   overflow:hidden;
 }
+
+.btn-border{
+  border: 2px solid rgb(59 130 246)
+}
+
+.btn-border:hover{
+background-color: rgb(59 130 246);
+color: white;
+
+}
